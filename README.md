@@ -1,6 +1,6 @@
 # NLayerApp
 
-## Core-Repository-Service
+## Proje 3 Katmanlıdır.( Core-Repository-Service )
 
 ## Core Katmanı
 - Model(Entity)
@@ -8,7 +8,7 @@
 - Repository Interfaces
 - Service Interfaces
 - UnitOfWork Interfaces (Design Pattern) bulunuyor. 
-+ (Birden fazla repository içerisinde yapılan tüm işlemleri tek bir transaction'da veri tabanına yansıtmak, herhangi bir hata durumunda ise tüm repositorydeki yapılan değişiklikleri geri almak. )
+- (Birden fazla repository içerisinde yapılan tüm işlemleri tek bir transaction'da veri tabanına yansıtmak, herhangi bir hata durumunda ise tüm repositorydeki yapılan değişiklikleri geri almak. )
 
 Repository () Core katmanını referans alacak 
 Migrations 
