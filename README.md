@@ -1,6 +1,5 @@
 # NLayerApp
-
-## Proje 3 Katmanlıdır.( Core-Repository-Service )
+- Proje 3 Katmanlıdır.( Core-Repository-Service )
 
 ## Core Katmanı
 - Model(Entity)
