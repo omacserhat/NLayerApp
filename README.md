@@ -1,14 +1,14 @@
 # NLayerApp
 
-Core-Repository-Service
+## Core-Repository-Service
 
-Core katmanında 
-Model(Entity)
-DTOs
-Repository Interfaces
-Service Interfaces
-UnitOfWork Interfaces (Design Pattern) bulunuyor. 
-(Birden fazla repository içerisinde yapılan tüm işlemleri tek bir transaction'da veri tabanına yansıtmak, herhangi bir hata durumunda ise tüm repositorydeki yapılan değişiklikleri geri almak. )
+## Core Katmanı
+- Model(Entity)
+- DTOs
+- Repository Interfaces
+- Service Interfaces
+- UnitOfWork Interfaces (Design Pattern) bulunuyor. 
++ (Birden fazla repository içerisinde yapılan tüm işlemleri tek bir transaction'da veri tabanına yansıtmak, herhangi bir hata durumunda ise tüm repositorydeki yapılan değişiklikleri geri almak. )
 
 Repository () Core katmanını referans alacak 
 Migrations 
