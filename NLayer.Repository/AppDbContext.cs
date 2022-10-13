@@ -11,7 +11,6 @@ namespace NLayer.Repository
 {
     public class AppDbContext : DbContext
     {
-        //Samet abiye sor.
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
 
