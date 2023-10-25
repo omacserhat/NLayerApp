@@ -6,7 +6,7 @@ namespace NLayer.Core.Repositories
     public interface IGenericRepository<T> where T : class
     {
         Task<T> GetByIdAsync(int id);
-        IQueryable<T> GetAll(Expression<Func<T, bool>> expression);
+        IQueryable<T> GetAll();
         // productRepository.where(x=>x.id > 5).OrderBy.ToListAsync();   orderby ekleyebilmek için yapıyoruz.
         //.ToList eklendiği anda dönüş sağlar.
         IQueryable<T> Where(Expression<Func<T, bool>> expression);
@@ -16,6 +16,5 @@ namespace NLayer.Core.Repositories
         void Update(T entity);
         void Remove(T entity);
         void RemoveRange(IEnumerable<T> entities);
-
     }
 }

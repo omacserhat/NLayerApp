@@ -37,7 +37,7 @@ namespace NLayer.Repository.Repositories
         }
 
         //AsNoTracking diyerek daha performanslı hale getiriyoruz projemizi. GetAll yapacağımız zamanda .ToList() dememiz yeterli.
-        public IQueryable<T> GetAll(Expression<Func<T, bool>> expression)
+        public IQueryable<T> GetAll()
         {
             return _dbSet.AsNoTracking().AsQueryable();
         }
