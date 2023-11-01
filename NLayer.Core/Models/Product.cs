@@ -1,15 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace NLayer.Core
+﻿namespace NLayer.Core.Models
 {
     //isimlendirmelerde _Id kullanmamamızın sebebi EFCore otomatik olarak bunları foreign key olarak algılıyor.
     //_ kullanılırsa algılamıyor.
     //_ kullanılırsa foreign key verilmesi gerekiyor.
-    public class Product:BaseEntity
+    public class Product : BaseEntity
     {
         public string Name { get; set; }
         public int Stock { get; set; }

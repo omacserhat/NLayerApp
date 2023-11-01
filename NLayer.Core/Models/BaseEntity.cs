@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NLayer.Core
+namespace NLayer.Core.Models
 {
     //Bu bir base yapı olduğu için abstract yapıyoruz ve newlenmesini istemiyoruz. 
     //Genelde abstract classlar projemizde ortak olan propları veya methodları kodladığımız yerlerdir.
